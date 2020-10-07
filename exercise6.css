@@ -3,6 +3,11 @@
 #e6 .container {
     height: 500px;
     width: 1000px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
 }
 
 #e6 .item {
