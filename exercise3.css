@@ -2,8 +2,10 @@
 
 #e3 .container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #e3 .item {
-    flex-wrap: 2; 
+    flex-basis: 33%;
 }
