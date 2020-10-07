@@ -1,7 +1,11 @@
 /* Use display, justify-content and align-items to solve this */
 
-#e4 .container {
+#e4 .container { 
     height: 300px;
+
+    display: flex;
+    Justify-content: space-between;
+    align-items: flex-end;
 }
 
 #e4 .item {
